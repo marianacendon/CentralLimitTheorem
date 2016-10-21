@@ -1,0 +1,34 @@
+##########################################################
+# Mariana Llamas-Cendon
+# MSDS 6303 - 405
+# Homework 4
+# README
+# 19 Oct 2016
+##########################################################
+
+
+The purpose of this project is to understand the Central Limit Theorem using the bootstrapping method. 
+
+
+First step:
+
+Two different random normal distribution samples were created:
+a) one R script named Rnorm.R containing 50 observations with a mean of 22 and a standard deviation of 5.
+b) one R script untitled Rnorm2.R containing 100 observations and same specifications regarding mean and standard deviation.
+
+In both cases the number of replications was set to 1000.
+
+Nonetheless, a third R script called Rnorm3.r containing a random normal distribution sample was created with 100 observations, mean of 22 and standard deviation of 5. In this case the number of replications was increased to 10000, just with the intention of comparing with the previous samples. 
+
+Second step:
+
+Two exponential distributions were also created:
+a) an R script called Rexponential.R with 50 observations and a rate of 5.
+b) an R script named Rexponential2.R  with also 50 observations but a rate of 10. 
+
+In both cases replications for bootstrapping were set at 1000. 
+
+Third step:
+The intention is to compare both the bootstrapping of the random normal distributions to those of the exponential distributions, in order to test the Central Limit Theorem that states that a large sample of replicating random values will result in a normal or near normal distribution.
+
+Conclusion can be found on a markdown document named Conclusion.Rmd. 
